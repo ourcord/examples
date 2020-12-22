@@ -1,7 +1,6 @@
 const {Client} = require('ourcord');
 // We suggest using .env for tokens and its builtin with our library.
 const client = new Client('bot token', {status: 'dnd'});
-client.connect();
 
 client.on('debug', log => {
     console.log(log);
