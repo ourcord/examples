@@ -1,6 +1,5 @@
 import Client from 'ourcord';
 const client = new Client(' token ', {status: 'dnd'});
-client.connect();
 
 client.on('ready', () => {
   console.log('Client connected to discord API');
